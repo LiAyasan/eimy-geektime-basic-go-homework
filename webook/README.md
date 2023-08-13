@@ -38,7 +38,7 @@
 
 请求返回，返回一串字符串
 
-![/users/profile接口请求](/image/img.png)
+![/users/profile接口请求](https://github.com/LiAyasan/eimy-geektime-basic-go-homework/blob/master/webook/image/img.png)
 
 ### user表
 
