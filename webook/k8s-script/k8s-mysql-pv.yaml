@@ -1,0 +1,14 @@
+apiVersion: v1
+# 这个指的是我 k8s 有哪些 volume
+kind: PersistentVolume
+metadata:
+  name: my-local-pv
+spec:
+  storageClassName: manual
+  capacity:
+    storage: 1Gi
+  # 允许怎么被访问
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/live"

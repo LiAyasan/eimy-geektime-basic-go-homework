@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webook-homework
+# specification
+spec:
+  # 部署3份
+  # 2. 将 webook 修改为2个pod
+  replicas: 2
+  selector:
+    matchLabels:
+      app: webook-homework
+  # template 描述你的 pod 是什么样的
+  template:
+    metadata:
+      labels:
+        app: webook-homework
+    # POD 的具体信息
+    spec:
+      containers:
+        - name: webook
+          image: webook-homework:v0.0.1
+          ports:
+            # 1. 启动端口从 8080 修改成 8081
+            - containerPort: 8081

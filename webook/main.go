@@ -22,7 +22,9 @@ func main() {
 
 	u := initUser(db)
 	u.RegisterRoutes(server)
-	server.Run(":8080")
+	//server := gin.Default()
+	// 1. 启动端口从 8080 修改成 8081
+	server.Run(":8081")
 }
 
 func initWebServer() *gin.Engine {
@@ -68,7 +70,7 @@ func initWebServer() *gin.Engine {
 }
 
 func initDB() *gorm.DB {
-	db, err := gorm.Open(mysql.Open("root:root@tcp(localhost:13316)/webook"))
+	db, err := gorm.Open(mysql.Open("root:root@tcp(webook-mysql:3308)/webook"))
 	if err != nil {
 		// 我只会在初始化过程 panic
 		panic(err)

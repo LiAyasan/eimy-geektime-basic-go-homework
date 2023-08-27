@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: webook-mysql
+spec:
+  selector:
+    app: webook-mysql
+  ports:
+    - protocol: TCP
+      # 你访问的端口
+      # 4. 将 webook 访问 MySQL 的端口修改为 3308
+      port: 3308
+      # 映射的端口
+      targetPort: 3306
+  type: LoadBalancer
+  
