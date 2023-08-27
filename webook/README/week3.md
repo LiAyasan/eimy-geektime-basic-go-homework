@@ -14,19 +14,21 @@
 
 ## 流程：
 
-![1]()
+![1](https://github.com/LiAyasan/eimy-geektime-basic-go-homework/blob/master/webook/image/week3/%E4%BF%AE%E6%94%B9%E5%90%AF%E5%8A%A8%E7%AB%AF%E5%8F%A3.png?raw=true)
 
-![2]()
+![2](https://github.com/LiAyasan/eimy-geektime-basic-go-homework/blob/master/webook/image/week3/%E4%BF%AE%E6%94%B9%E4%B8%BA2%E4%B8%AApod.png?raw=true)
 
-![3]()
+![3](https://github.com/LiAyasan/eimy-geektime-basic-go-homework/blob/master/webook/image/week3/%E4%BF%AE%E6%94%B9redis%E6%8E%A5%E5%85%A5%E7%AB%AF%E5%8F%A3.png?raw=true)
 
-![4]()
+![4](https://github.com/LiAyasan/eimy-geektime-basic-go-homework/blob/master/webook/image/week3/%E4%BF%AE%E6%94%B9mysql%E6%8E%A5%E5%85%A5%E7%AB%AF%E5%8F%A3.png?raw=true)
 
-![service]()
+![service](https://github.com/LiAyasan/eimy-geektime-basic-go-homework/blob/master/webook/image/week3/get%20service.png?raw=true)
 
-![pod]()
+![pod](https://github.com/LiAyasan/eimy-geektime-basic-go-homework/blob/master/webook/image/week3/get%20deployment.png?raw=true)
 
-![postman]()
+最后测试项目能否正常运行
+
+![postman](https://github.com/LiAyasan/eimy-geektime-basic-go-homework/blob/master/webook/image/week3/postman.png?raw=true)
 
 ## 心得
 
